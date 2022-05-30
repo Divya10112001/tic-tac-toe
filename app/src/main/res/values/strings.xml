@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TIC-TAC-TOE GAME</string>
+    <string name="X">x</string>
+    <string name="O">o</string>
+    <string name="welcome_to_tic_tac_toe_game">LET\'S PLAY TIC - TAC - TOE </string>
+    <string name="begin_the_game">BEGIN THE GAME</string>
+    <string name="exit">EXIT</string>
+    <string name="player1_wins"> WINNER IS  PLAYER : 1 </string>
+    <string name="wanna_play_again">WANNA PLAY AGAIN !!</string>
+</resources>

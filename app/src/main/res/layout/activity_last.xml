@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/tttc"
+    tools:context=".TTTgame">
+
+    <TextView
+        android:id="@+id/status2"
+        android:layout_width="match_parent"
+        android:layout_height="122dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="17dp"
+        android:background="#e9692c"
+        android:fontFamily="casual"
+        android:padding="10dp"
+        android:text="@string/player1_wins"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="40sp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/status2"
+        android:layout_marginTop="509dp"
+        android:backgroundTint="#e9692c"
+        android:clickable="true"
+        android:focusable="true"
+        android:fontFamily="casual"
+        android:onClick="reset"
+        android:padding="10dp"
+        android:text="@string/wanna_play_again"
+        android:textSize="30sp"
+        android:textStyle="bold|italic" />
+
+</RelativeLayout>
